@@ -1,5 +1,4 @@
 FROM openjdk:11-jre-slim
 EXPOSE 8080
-ARG APP_NAME=forecast
-ADD target/${APP_NAME}.jar ${APP_NAME}.jar
-ENTRYPOINT [ "java", "-jar", "/${APP_NAME}.jar" ]
+ADD target/forecast.jar forecast.jar
+ENTRYPOINT [ "java", "-jar", "/forecast.jar" ]
