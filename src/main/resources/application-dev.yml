@@ -1,0 +1,4 @@
+forecast:
+  count: 24
+  url: api.openweathermap.org/data/2.5/forecast
+  apikey: 
